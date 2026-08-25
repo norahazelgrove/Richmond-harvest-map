@@ -11,19 +11,25 @@
       "resizeMode": "contain",
       "backgroundColor": "#1F4B3F"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "android": {
       "package": "com.richmondharvestmap.app",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#1F4B3F"
       },
-      "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"]
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ]
     },
     "extra": {
       "eas": {
-        "projectId": "REPLACE_AFTER_EAS_INIT"
+        "projectId": "bf620178-5f3e-4223-8da8-d9f09ec6349b"
       }
-    }
+    },
+    "owner": "norahazelgrove"
   }
 }
