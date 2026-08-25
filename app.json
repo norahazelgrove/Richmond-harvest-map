@@ -30,6 +30,9 @@
         "projectId": "bf620178-5f3e-4223-8da8-d9f09ec6349b"
       }
     },
-    "owner": "norahazelgrove"
+    "owner": "norahazelgrove",
+    "plugins": [
+      "expo-asset"
+    ]
   }
 }
