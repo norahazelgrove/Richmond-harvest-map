@@ -32,7 +32,16 @@
     },
     "owner": "norahazelgrove",
     "plugins": [
-      "expo-asset"
+      "expo-asset",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "targetSdkVersion": 35,
+            "compileSdkVersion": 35
+          }
+        }
+      ]
     ]
   }
 }
